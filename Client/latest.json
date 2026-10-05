@@ -1,0 +1,32 @@
+{
+  "product": "ViPi ESP32 Client",
+  "channel": "stable",
+  "version": "3.0.0-alpha3.2",
+  "build_id": "20261005-154926-unknown",
+  "build_time": "2026-10-05T15:49:26Z",
+  "git_commit": "unknown",
+  "ota": {
+    "url": "https://github.com/longhd2/ViPi_Offline/releases/download/client-v3.0.0-alpha3.2/VIPI_APP.bin",
+    "size": 2501744,
+    "sha256": "4c0c180cefdba1b77bd5fc14c3e7d622004560de04afbaeca1ce88ea1760a928"
+  },
+  "files": {
+    "VIPI_APP.bin": {
+      "size": 2501744,
+      "sha256": "4c0c180cefdba1b77bd5fc14c3e7d622004560de04afbaeca1ce88ea1760a928"
+    },
+    "VIPI_FULL.bin": {
+      "size": 16777216,
+      "sha256": "24acfdc17c746a3a85f7d1d2336cf0bf368732d508dce4d00ae6e737a8dcdc4f"
+    },
+    "VIPI_SOUNDS.bin": {
+      "size": 988440,
+      "sha256": "4674a1f32cb80b6641a4d0e236e0b17ff936b9f92cc78b7f6d9f542b6ae9513d"
+    }
+  },
+  "partition": {
+    "ota_size": 3670016,
+    "storage_offset": 10551296,
+    "storage_size": 6225920
+  }
+}
