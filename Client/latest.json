@@ -1,23 +1,23 @@
 {
   "product": "ViPi ESP32 Client",
   "channel": "stable",
-  "version": "3.0.0-alpha3.3",
-  "build_id": "20261005-160429-unknown",
-  "build_time": "2026-10-05T16:04:29Z",
-  "git_commit": "unknown",
+  "version": "3.0.0-alpha3.9",
+  "build_id": "alpha3.9-9982816",
+  "build_time": "2026-10-15T23:08:10.509418+00:00",
+  "git_commit": "99828168178468716e9e7995e82e5de03cb7fa7e",
   "ota": {
-    "url": "https://github.com/longhd2/ViPi_Offline/releases/download/client-v3.0.0-alpha3.3/VIPI_APP.bin",
-    "size": 2501744,
-    "sha256": "ee6d5d1b604ec6bd5ebbde5766cc541f808cb2f3859df8432f41b74e3ec610cd"
+    "url": "https://github.com/longhd2/ViPi_Offline/releases/download/client-v3.0.0-alpha3.9/VIPI_APP.bin",
+    "size": 2588512,
+    "sha256": "2e6cf4579c7c42872762d767796b301797baceb5ad559aba24218be072af442c"
   },
   "files": {
     "VIPI_APP.bin": {
-      "size": 2501744,
-      "sha256": "ee6d5d1b604ec6bd5ebbde5766cc541f808cb2f3859df8432f41b74e3ec610cd"
+      "size": 2588512,
+      "sha256": "2e6cf4579c7c42872762d767796b301797baceb5ad559aba24218be072af442c"
     },
     "VIPI_FULL.bin": {
       "size": 16777216,
-      "sha256": "890f1da3e401fe142b003b708c6b2a80d0176f03f7ec4c93d3cca8a1601712c2"
+      "sha256": "e5dc53400000399668559d7cc6906fc3672dedb1698d776158249c5f4e841cc1"
     },
     "VIPI_SOUNDS.bin": {
       "size": 988440,

@@ -2,11 +2,11 @@
 
 Firmware Client hiện tại:
 
-`3.0.0-alpha3.3`
+`3.0.0-alpha3.9`
 
 GitHub Release:
 
-`client-v3.0.0-alpha3.3`
+`client-v3.0.0-alpha3.9`
 
 ## Firmware
 
