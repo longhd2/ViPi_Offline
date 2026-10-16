@@ -67,8 +67,3 @@ Script ghi IP LAN vào file ẩn `.env`. Nếu máy đổi IP, sửa
 ```sh
 sudo docker compose up -d --force-recreate
 ```
-
-Bộ cài có mã ViPi đã biên dịch, không phát kèm nguồn Python gốc. Việc biên
-dịch không bảo đảm chống dịch ngược tuyệt đối. Xem BUILD_REPORT.json để biết
-kiểm thử nào đã được thực hiện; không suy diễn kiểm thử giả lập thành kiểm
-thử trên mọi mẫu Raspberry Pi hoặc TV box.
