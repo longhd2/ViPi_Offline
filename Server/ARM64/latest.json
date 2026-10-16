@@ -1,0 +1,9 @@
+{
+  "product": "ViPi Server Docker",
+  "platform": "linux/arm64",
+  "version": "server-arm64-2026.10.16",
+  "url": "https://github.com/longhd2/ViPi_Offline/releases/download/server-arm64-2026.10.16/ViPi_Server_Docker_ARM64.zip",
+  "size": 387621580,
+  "sha256": "d536500a83c1d17573cb009f28e1d3b075a8b0cb0aaf6a031c4f44d8bf7c5c69",
+  "image": "vipi-server:compiled-arm64"
+}

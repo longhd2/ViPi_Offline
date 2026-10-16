@@ -1,0 +1,33 @@
+services:
+  server:
+    image: vipi-server:compiled-arm64
+    platform: linux/arm64
+    container_name: vipi-server
+    restart: unless-stopped
+    init: false
+    environment:
+      VIPI_ADVERTISE_HOST: ${VIPI_ADVERTISE_HOST:-}
+    ports:
+      - "3103:3103"
+      - "8190:8190"
+      - "8191:8191"
+      - "8188:8188"
+    volumes:
+      - ./config:/var/lib/vipi/config
+      - ./data:/app/data
+      - ./cache:/app/cache
+      - ./runtime:/app/runtime
+      - ./plugins:/app/skills/plugins
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,size=128m
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "3"
+    stop_grace_period: 20s
