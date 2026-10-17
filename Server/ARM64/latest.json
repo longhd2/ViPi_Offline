@@ -1,9 +1,9 @@
 {
   "product": "ViPi Server Docker",
+  "version": "2026.10.17-ota001",
   "platform": "linux/arm64",
-  "version": "server-arm64-2026.10.16",
-  "url": "https://github.com/longhd2/ViPi_Offline/releases/download/server-arm64-2026.10.16/ViPi_Server_Docker_ARM64.zip",
-  "size": 387624374,
-  "sha256": "7fa357870f3c4ac478cf3ac3fe01feace339ec3281d2d46d5f68aea7486afc23",
-  "image": "vipi-server:compiled-arm64"
+  "url": "https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.17-ota001/ViPi_Server_Docker_ARM64.zip",
+  "size": 393190695,
+  "sha256": "76ff3182b47e8f265e5bbccd575bcbf2e114b0d0c64b4c74f8f521d509cb9b58",
+  "ota_enable_url": "https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.17-ota001/ViPi_Server_OTA_Enable.zip"
 }

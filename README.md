@@ -1,6 +1,5 @@
 # ViPi
 
-- [ViPi Client: firmware cho ESP32](Client/README.md)
-- [ViPi Server: cài đặt trên TV box và Raspberry Pi](Server/ARM64/README.md)
-
-Hướng dẫn Server bao gồm cài đặt, tạo khóa Groq API, cấu hình trợ lý và kết nối ESP32.
+- [ViPi Client: firmware cho ESP32](Client/README.md).
+- [ViPi Server: bộ cài, API và cập nhật](Server/README.md).
+- [Máy đã cài Docker: bật OTA một lần](Server/OTA/README.md).

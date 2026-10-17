@@ -1,0 +1,27 @@
+{
+  "version": "2026.10.17-ota001",
+  "checks_passed": 33,
+  "web_signed_update_tiny_seconds": 30.11,
+  "interrupted_switch_recovery_seconds": 23.08,
+  "production": {
+    "tiny_amd64": {
+      "version": "2026.10.17-ota001",
+      "healthy": true,
+      "host_ota_service": "active",
+      "config_bytes_unchanged": true,
+      "authenticated_web_check": "passed"
+    },
+    "raspberry_pi_zero_2_w_arm64": {
+      "version": "2026.10.17-ota001",
+      "healthy": true,
+      "host_ota_service": "active",
+      "config_bytes_unchanged": true,
+      "authenticated_web_check": "passed"
+    },
+    "tv_box": "unchanged"
+  },
+  "limits": [
+    "Power-loss gap simulated; no physical power cut.",
+    "TTS implementation unchanged."
+  ]
+}

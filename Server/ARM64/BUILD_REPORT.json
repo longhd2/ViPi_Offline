@@ -1,39 +1,27 @@
 {
-  "architecture": "linux/arm64",
-  "image_id": "sha256:eef042eaed0900b83f4d6ae412fd058ec066d1e233772378137d17f19c093bf7",
-  "compiled_modules": 123,
-  "private_source_files_shipped": 0,
-  "api_keys_shipped": false,
-  "image_layers_checked": 13,
-  "application_files_checked": 147,
-  "regression_tests_passed": 78,
-  "emulation_test_note": "Only copied test deadline for multiprocessing spawn extended from 30 to 180 seconds; functional assertions unchanged. Application timeouts unchanged.",
-  "native_hardware_smoke": {
-    "device": "X96 Mini",
-    "os": "Debian 13 ARM64",
-    "checks": [
-      "123 ARM64 ELF modules",
-      "39 intents",
-      "VAD ONNX",
-      "password hashing",
-      "admin login page",
-      "original Python source absent"
-    ],
-    "live_service_unchanged": true
+  "version": "2026.10.17-ota001",
+  "checks_passed": 33,
+  "web_signed_update_tiny_seconds": 30.11,
+  "interrupted_switch_recovery_seconds": 23.08,
+  "production": {
+    "tiny_amd64": {
+      "version": "2026.10.17-ota001",
+      "healthy": true,
+      "host_ota_service": "active",
+      "config_bytes_unchanged": true,
+      "authenticated_web_check": "passed"
+    },
+    "raspberry_pi_zero_2_w_arm64": {
+      "version": "2026.10.17-ota001",
+      "healthy": true,
+      "host_ota_service": "active",
+      "config_bytes_unchanged": true,
+      "authenticated_web_check": "passed"
+    },
+    "tv_box": "unchanged"
   },
-  "arm_container_checks": [
-    "four ESP32 protocol clients",
-    "TTS Opus packets",
-    "STT health",
-    "FLAC encoder",
-    "MediaProxy payload transfer",
-    "LAN media advertise address",
-    "mic to Google STT to time skill to TTS"
-  ],
-  "not_verified": [
-    "physical Raspberry Pi",
-    "full Docker deployment on TV box",
-    "physical speaker playback",
-    "ARM32/Android compatibility"
+  "limits": [
+    "Power-loss gap simulated; no physical power cut.",
+    "TTS implementation unchanged."
   ]
 }
