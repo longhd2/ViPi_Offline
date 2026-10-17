@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "version": "2026.10.17-ota001",
+  "expires_at": 1807795293,
+  "platforms": {
+    "amd64": {
+      "url": "https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.17-ota001/vipi-update-amd64.tar.gz",
+      "sha256": "c52dcc1f5fbfa0b1731085aa8c7166875ec911397f496730544cf2d3a5f07a84",
+      "size": 5437182,
+      "runtime": "py313-202610-amd64"
+    },
+    "arm64": {
+      "url": "https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.17-ota001/vipi-update-arm64.tar.gz",
+      "sha256": "cbbf69e11fafa9137a203c2d47fd8de91796c35807ca35fc45ff245975fa1e50",
+      "size": 5054303,
+      "runtime": "py313-202610-arm64"
+    }
+  }
+}

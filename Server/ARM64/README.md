@@ -17,7 +17,7 @@ Kết quả cần là `aarch64` và `64`. Nếu TV box đang chạy Android, c�
 
 ## 2. Tải và cài đặt
 
-[Tải bộ cài ViPi Server ARM64](https://github.com/longhd2/ViPi_Offline/releases/download/server-arm64-2026.10.16/ViPi_Server_Docker_ARM64.zip).
+[Tải bộ cài ViPi Server ARM64](https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.17-ota001/ViPi_Server_Docker_ARM64.zip).
 
 Dùng WinSCP chép tệp ZIP vào thư mục cá nhân trên TV box hoặc Raspberry Pi. Đăng nhập máy bằng PuTTY, sau đó chạy lần lượt:
 
@@ -115,3 +115,10 @@ sudo docker compose up -d --force-recreate
 | Groq báo hết hạn mức | Kiểm tra hạn mức trong GroqCloud và thử lại sau thời gian được thông báo. |
 | Model không khả dụng | Kiểm tra tên model trong danh sách Groq đang hỗ trợ và quyền sử dụng của tài khoản. |
 | ESP32 chưa kết nối | Kiểm tra URL có dạng `ws://IP-MAY:3103/ws` và ESP32 đang ở cùng mạng. |
+
+
+## Cập nhật Server qua web
+
+Nếu đã cài bản Docker cũ, [bật OTA một lần theo hướng dẫn này](../OTA/README.md), giữ nguyên cấu hình hiện tại. Bộ cài mới đã bật sẵn dịch vụ cập nhật.
+
+Mở **Cập nhật Server** trong trang quản trị, chọn **Kiểm tra bản mới** rồi **Cập nhật**. Không cần cài lại Docker hay khai lại API. ViPi tạm ngắt kết nối lúc chuyển phiên bản. Nếu bản mới lỗi, hệ thống tự khôi phục bản trước. Nút **Khôi phục bản trước** khôi phục cả phiên bản và dữ liệu trước cập nhật. Hãy cập nhật khi thiết bị không trò chuyện hoặc phát nhạc.
