@@ -4,7 +4,7 @@
 
 ## Tải bộ cài
 
-- [APK ViPi R1 0.1.0-alpha14](https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.0-alpha14/ViPi_R1-0.1.0-alpha14.apk).
+- [Tải APK ViPi R1](https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.0-alpha14/ViPi_R1-0.1.0-alpha14.apk).
 - [Mã đối chiếu SHA-256](https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.0-alpha14/SHA256SUMS).
 - [Bộ cài ViPi Server](https://github.com/longhd2/ViPi_Offline/blob/main/Server/README.md).
 
@@ -39,7 +39,7 @@ Nếu gặp `error: closed`, kết nối ADB lại và dùng cách chép APK r�
 
 ## Mở giao diện và kết nối server
 
-Mở `http://IP-CUA-LOA:8088` bằng trình duyệt trên điện thoại hoặc máy tính cùng mạng. Từ alpha12 không có trang đăng nhập. Trang điều khiển chỉ dành cho LAN; không chuyển tiếp cổng 8088/5555 ra Internet.
+Mở `http://IP-CUA-LOA:8088` bằng trình duyệt trên điện thoại hoặc máy tính cùng mạng. Trang điều khiển mở trực tiếp, không cần đăng nhập. Trang điều khiển chỉ dành cho LAN; không chuyển tiếp cổng 8088/5555 ra Internet.
 
 Vào **Kết nối → Loa & ViPi Server**:
 
@@ -67,10 +67,6 @@ Khi dùng tên miền, cấu hình reverse proxy/tunnel trên server để hỗ 
 
 ## Cập nhật
 
-Nếu đã cấu hình máy hỗ trợ cập nhật LAN: vào **Cập nhật OTA → Kiểm tra cập nhật → Cài bản cập nhật**. Máy hỗ trợ phải đang bật và truy cập được ADB của loa. Hệ thống đối chiếu package, chữ ký và SHA-256. APK công khai không chứa token OTA riêng hoặc khóa ký.
+Nếu đã cấu hình máy hỗ trợ cập nhật LAN: vào **Cập nhật OTA → Kiểm tra cập nhật → Cài bản cập nhật**. Máy hỗ trợ phải đang bật và truy cập được ADB của loa.
 
 Cài APK lần đầu không tự cấu hình máy hỗ trợ OTA. Khi chưa có máy này, tải APK mới và cài lại theo các lệnh ADB ở trên với `-r`. Không xóa dữ liệu ứng dụng nếu muốn giữ thiết lập và hotword.
-
-## Phạm vi kiểm tra alpha14
-
-Đã thử trên R1 Android 5.1.1: cài qua OTA, giao diện mở trực tiếp.

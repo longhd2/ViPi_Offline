@@ -1,8 +1,8 @@
 # ViPi Client
 
-Phiên bản **3.0.0-alpha3.10**, dành cho ESP32-S3 có Flash 16 MB.
+ViPi Client dành cho ESP32-S3 có Flash 16 MB.
 
-[Tải firmware alpha3.10](https://github.com/longhd2/ViPi_Offline/releases/tag/client-v3.0.0-alpha3.10)
+[Tải firmware ViPi Client](https://github.com/longhd2/ViPi_Offline/releases/tag/client-v3.0.0-alpha3.10)
 
 | Tệp | Sử dụng |
 |---|---|
