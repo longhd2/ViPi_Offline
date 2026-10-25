@@ -41,3 +41,7 @@ Nếu máy đã chạy ViPi, dùng mục **Cập nhật Server** trên trang qu�
 - **Phicomm R1:** dùng mục Cập nhật OTA khi đã cấu hình máy hỗ trợ, hoặc cài APK mới theo hướng dẫn R1.
 
 [Tất cả bộ cài và bản cập nhật](https://github.com/longhd2/ViPi_Offline/releases).
+
+## Kết nối công cụ MCP
+
+[Hướng dẫn cài MCP mẫu và kết nối với ViPi](MCP/demo/README.md): xem giờ, cộng hai số và điều khiển đèn mô phỏng.

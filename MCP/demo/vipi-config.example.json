@@ -1,0 +1,10 @@
+{
+  "mcp": {
+    "enabled": true,
+    "endpoint": "ws://127.0.0.1:8765/mcp",
+    "reconnect_seconds": 5,
+    "call_timeout_seconds": 10,
+    "allowed_tools": ["demo.time", "demo.add", "demo.light"],
+    "disabled_tools": []
+  }
+}

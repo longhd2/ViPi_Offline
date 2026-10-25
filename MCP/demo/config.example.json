@@ -1,0 +1,6 @@
+{
+  "listen": "127.0.0.1",
+  "port": 8765,
+  "allowed_clients": ["127.0.0.1/32", "::1/128"],
+  "timezone": "Asia/Ho_Chi_Minh"
+}
