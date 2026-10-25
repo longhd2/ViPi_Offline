@@ -1,6 +1,6 @@
 # Bật cập nhật Server cho bản ViPi Docker đã cài
 
-[Tải bộ bật OTA](https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.17-ota001/ViPi_Server_OTA_Enable.zip).
+[Tải bộ bật OTA](https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.25-ota003/ViPi_Server_OTA_Enable.zip).
 
 Chỉ cần thực hiện một lần. Giữ nguyên thư mục đang cài ViPi, không xóa cấu hình và không cài lại hệ điều hành hoặc Docker.
 

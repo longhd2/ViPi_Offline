@@ -1,0 +1,3 @@
+
+# Preserve Ed25519 signatures byte for byte.
+Server/updates/*.sig binary

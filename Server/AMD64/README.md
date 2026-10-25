@@ -17,7 +17,7 @@ Kết quả cần là `x86_64` và `64`.
 
 ## 2. Tải và cài đặt
 
-[Tải bộ cài ViPi Server AMD64](https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.17-ota001/ViPi_Server_Docker_AMD64.zip).
+[Tải bộ cài ViPi Server AMD64](https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.25-ota003/ViPi_Server_Docker_AMD64.zip).
 
 Dùng WinSCP chép tệp ZIP vào thư mục cá nhân trên Tiny hoặc PC. Đăng nhập máy bằng PuTTY, sau đó chạy lần lượt:
 

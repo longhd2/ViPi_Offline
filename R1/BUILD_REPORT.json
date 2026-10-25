@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0-alpha14",
+  "version_code": 14,
+  "package": "vn.vipi.r1",
+  "build_type": "release",
+  "debuggable": false,
+  "r8_minified": true,
+  "signer_matches_installed_alpha": true,
+  "sha256": "1d2a62ab9ad2595ffe4284a76ff6b405d29ee8d84cdd1a39bc52dedba10b5520",
+  "source_commit": "4623c7e",
+  "unit_tests": {
+    "total": 20,
+    "passed": 19,
+    "skipped": 1
+  },
+  "lint": "passed",
+  "device_release_ota_test": {
+    "passed": true,
+    "wss_connected": true,
+    "microphone_ready": true,
+    "hotword_ready": true,
+    "sound_count": 18,
+    "accessibility_preserved": true,
+    "installed_sha256_verified": true,
+    "mcp_readback_passed": true,
+    "tts_stream_test_passed": true
+  }
+}

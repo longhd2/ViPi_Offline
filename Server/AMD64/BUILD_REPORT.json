@@ -1,27 +1,30 @@
 {
-  "version": "2026.10.17-ota001",
-  "checks_passed": 33,
-  "web_signed_update_tiny_seconds": 30.11,
-  "interrupted_switch_recovery_seconds": 23.08,
-  "production": {
-    "tiny_amd64": {
-      "version": "2026.10.17-ota001",
+  "version": "2026.10.25-ota003",
+  "source_commit": "4c84851e1bc40577c109b54da855d6836801f22c",
+  "source_tests_passed": 268,
+  "compiled_smoke": {
+    "amd64": {
       "healthy": true,
-      "host_ota_service": "active",
-      "config_bytes_unchanged": true,
-      "authenticated_web_check": "passed"
+      "compiled_web_version": "2026.10.25-ota003",
+      "source_python_in_image": false
     },
-    "raspberry_pi_zero_2_w_arm64": {
-      "version": "2026.10.17-ota001",
+    "arm64": {
       "healthy": true,
-      "host_ota_service": "active",
-      "config_bytes_unchanged": true,
-      "authenticated_web_check": "passed"
-    },
-    "tv_box": "unchanged"
+      "compiled_web_version": "2026.10.25-ota003",
+      "source_python_in_image": false
+    }
   },
   "limits": [
-    "Power-loss gap simulated; no physical power cut.",
-    "TTS implementation unchanged."
-  ]
+    "ARM64 tested under emulation on Tiny; not yet installed on physical Raspberry Pi."
+  ],
+  "ota_upgrade": {
+    "healthy": true,
+    "configuration_bytes_unchanged": true,
+    "data_preserved": true,
+    "seconds": 23.98,
+    "rollback_passed": true,
+    "package_transport": "local test copy verified against signed manifest"
+  },
+  "security_tests_passed": 7,
+  "release_status": "validated"
 }

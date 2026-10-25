@@ -17,7 +17,7 @@ Kết quả cần là `aarch64` và `64`. Nếu TV box đang chạy Android, c�
 
 ## 2. Tải và cài đặt
 
-[Tải bộ cài ViPi Server ARM64](https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.17-ota001/ViPi_Server_Docker_ARM64.zip).
+[Tải bộ cài ViPi Server ARM64](https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.25-ota003/ViPi_Server_Docker_ARM64.zip).
 
 Dùng WinSCP chép tệp ZIP vào thư mục cá nhân trên TV box hoặc Raspberry Pi. Đăng nhập máy bằng PuTTY, sau đó chạy lần lượt:
 

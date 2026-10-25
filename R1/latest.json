@@ -1,0 +1,11 @@
+{
+  "product": "ViPi R1 Android",
+  "version": "0.1.0-alpha14",
+  "version_code": 14,
+  "package": "vn.vipi.r1",
+  "url": "https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.0-alpha14/ViPi_R1-0.1.0-alpha14.apk",
+  "size": 5785233,
+  "sha256": "1d2a62ab9ad2595ffe4284a76ff6b405d29ee8d84cdd1a39bc52dedba10b5520",
+  "build_type": "release",
+  "r8_minified": true
+}
