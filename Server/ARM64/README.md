@@ -15,22 +15,23 @@ getconf LONG_BIT
 
 Kết quả cần là `aarch64` và `64`. Nếu TV box đang chạy Android, cần cài Linux phù hợp với thiết bị trước.
 
-## 2. Tải và cài đặt
+## 2. Cài trực tiếp bằng Git
 
-[Tải bộ cài ViPi Server ARM64](https://github.com/longhd2/ViPi_Offline/releases/download/server-2026.10.25-ota003/ViPi_Server_Docker_ARM64.zip).
-
-Dùng WinSCP chép tệp ZIP vào thư mục cá nhân trên TV box hoặc Raspberry Pi. Đăng nhập máy bằng PuTTY, sau đó chạy lần lượt:
+Đăng nhập SSH vào máy Linux sẽ cài ViPi, hoặc mở terminal ngay trên máy, rồi chạy:
 
 ```sh
-cd ~
 sudo apt-get update
-sudo apt-get install -y unzip
-unzip ViPi_Server_Docker_ARM64.zip
-cd ViPi_Server_Docker_ARM64
-sudo sh install.sh
+sudo apt-get install -y git python3 ca-certificates
+git clone https://github.com/longhd2/ViPi_Offline.git
+cd ViPi_Offline
+bash install.sh
 ```
 
-Chờ cài đặt hoàn tất. Nếu máy đã chạy một bản ViPi khác, hãy dừng bản cũ và giữ lại cấu hình trước khi khởi chạy bản này để tránh trùng cổng.
+Script tự tải và giải nén bộ cài phù hợp. Khi được yêu cầu, nhập mật khẩu sudo của tài khoản trên máy chủ.
+
+Bộ cài được đặt tại `~/ViPi_Server_Docker_ARM64`. Sau khi cài hoàn tất, tiếp tục thiết lập ở bước dưới.
+
+Nếu đã có bản ViPi đang chạy, dùng mục **Cập nhật Server** trên trang quản trị. Script cài mới không ghi đè thư mục đã có dữ liệu.
 
 ## 3. Mở trang quản trị
 

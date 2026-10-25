@@ -2,6 +2,22 @@
 
 ViPi kết nối máy chủ với loa ESP32 hoặc Phicomm R1 để trò chuyện, nghe nhạc, radio và điều khiển thiết bị trong nhà.
 
+## Cài Server trực tiếp bằng Git
+
+Đăng nhập SSH vào máy Linux sẽ làm ViPi Server, rồi chạy:
+
+```sh
+sudo apt-get update
+sudo apt-get install -y git python3 ca-certificates
+git clone https://github.com/longhd2/ViPi_Offline.git
+cd ViPi_Offline
+bash install.sh
+```
+
+Script tự chọn bộ cài theo máy, tải về, giải nén và bắt đầu cài đặt. Sau khi hoàn tất, mở `http://IP-MAY-CHU:8190` để cấu hình.
+
+Nếu máy đã chạy ViPi, dùng mục **Cập nhật Server** trên trang quản trị. Script cài mới sẽ dừng khi thư mục đã có dữ liệu hoặc các cổng dịch vụ đang được sử dụng.
+
 ## Tải và cài đặt
 
 | Thiết bị | Hướng dẫn |
