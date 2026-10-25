@@ -73,4 +73,4 @@ Cài APK lần đầu không tự cấu hình máy hỗ trợ OTA. Khi chưa có
 
 ## Phạm vi kiểm tra alpha14
 
-Đã thử trên R1 Android 5.1.1: cài qua OTA, giao diện mở trực tiếp, quét Wi-Fi liên tiếp, WSS qua tên miền, chuyển từ LAN lỗi sang tên miền, micro và câu trả lời TTS. Kết nối tên miền đã thử trong cùng mạng nhà; chưa xác nhận trên Wi-Fi/4G của mạng khác. Kiểm tra tệp `BUILD_REPORT.json` đi kèm bản phát hành để biết kết quả riêng của APK Release.
+Đã thử trên R1 Android 5.1.1: cài qua OTA, giao diện mở trực tiếp.
