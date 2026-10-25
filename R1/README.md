@@ -8,9 +8,7 @@
 - [Mã đối chiếu SHA-256](https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.0-alpha14/SHA256SUMS).
 - [Bộ cài ViPi Server](https://github.com/longhd2/ViPi_Offline/blob/main/Server/README.md).
 
-APK là bản Release đã tối ưu và làm rối mã bằng R8, có chữ ký tương thích với các bản alpha trước. Không phân phối mã nguồn ứng dụng hoặc khóa ký. Đây là biện pháp bảo vệ mã, không phải mã hóa chống dịch ngược tuyệt đối.
-
-Kiểm tra APK bằng `Get-FileHash .\ViPi_R1-0.1.0-alpha14.apk -Algorithm SHA256` trên PowerShell hoặc `sha256sum ViPi_R1-0.1.0-alpha14.apk` trên Linux; so sánh với dòng APK trong SHA256SUMS.
+APK là bản Release 
 
 ## Chuẩn bị
 
@@ -55,7 +53,7 @@ Vào **Kết nối → Loa & ViPi Server**:
 
 Thay các địa chỉ mặc định bằng server của bạn. Token nhập ở ô riêng, không đưa vào URL. Để ô token trống khi lưu sẽ giữ token đã có. Bấm **Lưu & kết nối lại**, kiểm tra trạng thái **Đã kết nối ViPi** và đường kết nối hiện tại.
 
-Khi dùng tên miền, cấu hình reverse proxy/tunnel trên server để hỗ trợ WebSocket và WSS. Bản alpha14 đã bổ sung chứng chỉ ISRG chính thức cho Android 5.1, vẫn xác thực chứng chỉ và tên máy chủ. Thời gian hệ thống của loa cần đúng.
+Khi dùng tên miền, cấu hình reverse proxy/tunnel trên server để hỗ trợ WebSocket và WSS.
 
 ## Sử dụng loa
 
