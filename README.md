@@ -16,7 +16,7 @@ bash install.sh
 
 Script tự chọn bộ cài theo máy, tải về, giải nén và bắt đầu cài đặt. Sau khi hoàn tất, mở `http://IP-MAY-CHU:8190` để cấu hình.
 
-Nếu máy đã chạy ViPi, dùng mục **Cập nhật Server** trên trang quản trị. Script cài mới sẽ dừng khi thư mục đã có dữ liệu hoặc các cổng dịch vụ đang được sử dụng.
+Nếu máy đã chạy ViPi, xem [hướng dẫn cập nhật](Server/OTA/README.md). Script cài mới sẽ dừng khi thư mục đã có dữ liệu hoặc các cổng dịch vụ đang được sử dụng.
 
 ## Tải và cài đặt
 

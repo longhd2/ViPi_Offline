@@ -31,7 +31,7 @@ Script tự tải và giải nén bộ cài phù hợp. Khi được yêu cầu,
 
 Bộ cài được đặt tại `~/ViPi_Server_Docker_ARM64`. Sau khi cài hoàn tất, tiếp tục thiết lập ở bước dưới.
 
-Nếu đã có bản ViPi đang chạy, dùng mục **Cập nhật Server** trên trang quản trị. Script cài mới không ghi đè thư mục đã có dữ liệu.
+Nếu đã có bản ViPi đang chạy, xem [hướng dẫn cập nhật](../OTA/README.md). Script cài mới không ghi đè thư mục đã có dữ liệu.
 
 ## 3. Mở trang quản trị
 
