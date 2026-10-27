@@ -1,9 +1,9 @@
 {
   "product": "ViPi R1 Android",
-  "version": "0.1.1",
-  "version_code": 15,
+  "version": "0.1.2",
+  "version_code": 16,
   "package": "vn.vipi.r1",
-  "url": "https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.1/ViPi_R1-0.1.1.apk",
-  "size": 5793449,
-  "sha256": "c01ee4cb4004d003be6254e229fc858ef857d909c97984043c0167c2a03b1b59"
+  "url": "https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.2/ViPi_R1-0.1.2.apk",
+  "size": 5793481,
+  "sha256": "c643800ed7ea1617e950b33bda81d0e68073e773f47520f70df97127c9e09ef3"
 }

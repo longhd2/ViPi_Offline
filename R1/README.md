@@ -1,13 +1,15 @@
 # ViPi R1 cho loa Phicomm R1
 
+Bản 0.1.2 sửa lỗi mất dấu tiếng Việt khi nhập câu hỏi, gửi lệnh và tìm bài hát trên trang của loa.
+
 Bản mới thêm ô nhập lệnh bằng chữ trong phần trò chuyện và ô tìm nhạc trên trang của loa. Các lệnh đi qua ViPi Server 3.0.2; vẫn dùng được mic như trước.
 
 Ứng dụng trợ lý giọng nói tiếng Việt cho Phicomm R1 chạy Android 5.1.1. Kết nối tới ViPi Server qua mạng nội bộ hoặc tên miền WSS.
 
 ## Tải bộ cài
 
-- [Tải APK ViPi R1](https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.1/ViPi_R1-0.1.1.apk).
-- [Mã đối chiếu SHA-256](https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.1/SHA256SUMS).
+- [Tải APK ViPi R1](https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.2/ViPi_R1-0.1.2.apk).
+- [Mã đối chiếu SHA-256](https://github.com/longhd2/ViPi_Offline/releases/download/r1-v0.1.2/SHA256SUMS).
 - [Bộ cài ViPi Server](https://github.com/longhd2/ViPi_Offline/blob/main/Server/README.md).
 
 APK là bản Release 
@@ -25,7 +27,7 @@ Ví dụ IP của loa là `192.168.1.48`. Thay địa chỉ này bằng IP loa c
 
 ```sh
 adb connect 192.168.1.48:5555
-adb -s 192.168.1.48:5555 push ViPi_R1-0.1.1.apk /data/local/tmp/ViPi_R1.apk
+adb -s 192.168.1.48:5555 push ViPi_R1-0.1.2.apk /data/local/tmp/ViPi_R1.apk
 adb -s 192.168.1.48:5555 shell 'sh -c "pm install -r /data/local/tmp/ViPi_R1.apk"'
 ```
 
