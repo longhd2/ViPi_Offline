@@ -1,8 +1,10 @@
 # ViPi Client
 
+Bản mới thêm ô nhập lệnh bằng chữ trong phần trò chuyện và ô tìm nhạc trên trang của loa. Các lệnh đi qua ViPi Server 3.0.2; vẫn dùng được mic như trước.
+
 ViPi Client dành cho ESP32-S3 có Flash 16 MB.
 
-[Tải firmware ViPi Client](https://github.com/longhd2/ViPi_Offline/releases/tag/client-v3.0.0-alpha3.10)
+[Tải firmware ViPi Client](https://github.com/longhd2/ViPi_Offline/releases/tag/client-v3.0.1)
 
 | Tệp | Sử dụng |
 |---|---|

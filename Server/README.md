@@ -22,6 +22,12 @@ Máy đã có ViPi nên cập nhật từ trang quản trị để giữ cấu h
 
 Hướng dẫn có các bước lấy khóa Groq API và kết nối ESP32.
 
+## ViPi Server 3.0.2
+
+Hỗ trợ nhập lệnh bằng chữ và tìm nhạc trực tiếp trên client ESP32 3.0.1 và R1 0.1.1. Giữ luồng trò chuyện bằng mic, cải thiện trả lời thời tiết và chuyển giữa giọng nói với nhạc.
+
+[Tải ViPi Server 3.0.2](https://github.com/longhd2/ViPi_Offline/releases/tag/server-3.0.2).
+
 ## ViPi Server 3.0.1
 
 - Sửa trường hợp loa không đọc câu trả lời khi hỏi giờ hoặc thời tiết.
