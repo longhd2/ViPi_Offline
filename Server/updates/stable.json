@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "version": "3.0.2",
-  "expires_at": 1808692175,
+  "version": "3.0.3",
+  "expires_at": 1809271848,
   "platforms": {
     "amd64": {
-      "url": "https://github.com/longhd2/ViPi_Offline/releases/download/server-3.0.2/vipi-update-amd64.tar.gz",
-      "sha256": "a116dbb152d2f7f75d27f1d269a57fc6163b386c84d427d20db12ff9087440ee",
-      "size": 41293646,
+      "url": "https://github.com/longhd2/ViPi_Offline/releases/download/server-3.0.3/vipi-update-amd64.tar.gz",
+      "sha256": "69d3805331b2b659baf1753a896df4f41bff63bbf63259a94c287338add731d1",
+      "size": 42217616,
       "runtime": "py313-202610-amd64"
     },
     "arm64": {
-      "url": "https://github.com/longhd2/ViPi_Offline/releases/download/server-3.0.2/vipi-update-arm64.tar.gz",
-      "sha256": "8f72297e70edd388101b67d8d0f28c5135d1e8fd48967c860788c4099cf45e1a",
-      "size": 38514660,
+      "url": "https://github.com/longhd2/ViPi_Offline/releases/download/server-3.0.3/vipi-update-arm64.tar.gz",
+      "sha256": "2d78eced765a5c9b1c8f1386bab625c14f315307a2d4c4fc7fbbd2523a47d5fa",
+      "size": 39377578,
       "runtime": "py313-202610-arm64"
     }
   }
