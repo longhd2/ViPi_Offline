@@ -1,0 +1,79 @@
+ViPi PRIVATE NON-COMMERCIAL LICENSE
+Version 1.0 - 12 November 2026
+
+Copyright (c) 2026 the owner(s) of the original ViPi project materials
+(GitHub: longhd2). All rights reserved except for permissions expressly
+granted below.
+
+IMPORTANT: This is a custom, restrictive license. It is NOT an open-source
+license, and it is NOT an authorization to redistribute or commercialize ViPi.
+
+1. COVERED MATERIALS
+This license applies only to original ViPi source code, documents, designs,
+configuration templates, original media, and other material over which the
+ViPi rights holder has the legal authority to grant these rights, including
+protected portions incorporated into derivative works ("Covered Materials").
+It does not purport to relicense independent third-party components.
+
+2. LIMITED PRIVATE, NON-COMMERCIAL PERMISSION
+A person who lawfully receives the Covered Materials may inspect, study,
+run, and modify them for private, non-commercial evaluation, research, and
+development only, subject to all terms below. This grant is non-exclusive,
+non-transferable, and does not include sublicensing rights.
+
+3. NO PUBLICATION, SHARING OR REDISTRIBUTION
+Without the rights holder's explicit PRIOR WRITTEN PERMISSION, you must not:
+(a) publish or disclose the Covered Materials or their protected derivatives;
+(b) post, upload or push them to a public repository, website or app store;
+(c) distribute source, binaries, documentation, modified versions or extracts;
+(d) sublicense, sell, lease, transfer access to, or make them available to
+    third parties, whether for free or in exchange for consideration;
+(e) use the materials to train or supply a third-party service where this
+    requires disclosing their protected contents without authorization.
+
+4. NO COMMERCIAL USE
+Without explicit PRIOR WRITTEN PERMISSION, you must not use the Covered
+Materials or their protected derivatives for commercial purposes, including
+sale, paid licensing, subscription services, paid deployment, resale,
+commercial hosting, advertising-supported distribution, or integration into
+a commercial product or service. Making modifications does not grant
+commercialization or publication rights.
+
+5. NO IMPLIED APPROVAL
+Only the ViPi rights holder may authorize a release, public repository,
+third-party disclosure, distribution, app-store listing, or commercial
+license of the Covered Materials. Permission must be explicit and written,
+and must identify the authorized activity. Repository access, receipt of a
+copy, contributions, and technical collaboration do not alone constitute
+permission to publish or commercialize.
+
+6. THIRD-PARTY RIGHTS AND PREVIOUS GRANTS
+Third-party code, dependencies, libraries, assets, trademarks and source
+materials remain under their respective licenses and owners. Preserve their
+copyright and license notices; do not represent them as owned by ViPi.
+This license does not revoke permissions already validly granted under an
+earlier license for a particular copy or version, and it cannot override
+third-party open-source rights. When terms conflict, apply this license
+only to original ViPi-owned portions for which the rights holder can
+lawfully impose these terms.
+
+7. OWNERSHIP
+No ownership or intellectual property title is transferred by this license.
+Contributors retain their own rights unless a separate agreement provides
+otherwise. Do not remove authorship or rights notices.
+
+8. TERMINATION
+Any authorization under this license terminates upon violation of its
+terms. On termination, stop using and distributing the affected Covered
+Materials, subject to applicable law and any valid prior grants.
+
+9. DISCLAIMER
+TO THE EXTENT PERMITTED BY LAW, COVERED MATERIALS ARE PROVIDED "AS IS",
+WITHOUT WARRANTY OF ANY KIND. THE RIGHTS HOLDER DISCLAIMS LIABILITY FOR
+LOSS OR DAMAGE ARISING FROM THEIR USE TO THE EXTENT PERMITTED BY LAW.
+
+For permission to disclose, publish, redistribute or commercialize, request
+prior written authorization from the ViPi rights holder (GitHub: longhd2).
+
+This license is a project policy and has not been independently reviewed by
+legal counsel.
